@@ -10,8 +10,8 @@ app.use(express.json());
 
 app.get("/api/v1/resturants", async (req, res) => {
   const results = await db.query("select  * from resturants");
-  console.log("results");
-  res.status(202).json({
+  console.log(results);
+  res.status(200).json({
     status: "success",
     data: {
       resturant: ["singh burger", "trukey king", "jalaba"],
