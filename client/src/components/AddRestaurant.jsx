@@ -25,7 +25,7 @@ const AddRestaurant = () => {
               <option value="5">$$$$$</option>
             </select>
           </div>
-          <button class="btn btn-primary  my-3 ml-3">Add</button>
+          <button className="btn btn-primary  my-3 ml-3">Add</button>
         </div>
       </form>
     </div>
